@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="script.js"></script>
+    <title>Hello, world!</title>
+</head>
+
+<body class="container">
+    <h1>WEB 2 First exercises</h1>
+    <form id="form">
+        <div class="form-group">
+            <label for="nameInput">Name</label>
+            <input type="text" name="name" class="form-control" id="nameInput" required>
+        </div>
+        <div class="form-group">
+            <label for="emailInput">Email address</label>
+            <input type="email" name="email" class="form-control" id="emailInput" placeholder="name@example.com">
+        </div>
+        <!-- <div class="form-group">
+            <label for="orderInput">Order</label>
+            <input type="text" name="order" class="form-control" id="orderInput" >
+        </div> -->
+        <div class="form-group"> 
+            <label for="orderInput">Order</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="dish" id="dish1" value="1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Burger and french fries
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="dish" id="dish2" value="2">
+                <label class="form-check-label" for="exampleRadios2">
+                  Pizza
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="dish" id="dish3" value="3">
+                <label class="form-check-label" for="exampleRadios3">
+                   Spaghetti
+                </label>
+              </div> 
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+    <div id="messages">
+        
+    </div>
+    
+</body>
+
+</html>
+
+
+
+
+
