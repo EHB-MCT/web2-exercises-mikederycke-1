@@ -30,6 +30,12 @@ window.onload = function(){
 
     function buildList(){
         let html = '';
+        // Order the list
+        pokemon.sort(function(a,b) {
+            return a.id - b.id;
+        });
+
+
         for(let p of pokemon){
             html += `<div class="card" style="width: 10rem; margin: 3px;">
             <img class="card-img-top" src="${p.sprites.front_default}" alt="Card image cap">
