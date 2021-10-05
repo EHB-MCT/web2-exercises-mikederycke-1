@@ -4,7 +4,8 @@ window.onload = function(){
     // Add event listener to submit button of the FORM
     document.getElementById('form')
     .addEventListener('submit', event => {
-        event.preventDefault();    
+        event.preventDefault();      
+
         //Get values of input fields
         let name = document.getElementById('nameInput').value;
         let email = document.getElementById('emailInput').value;
@@ -15,7 +16,6 @@ window.onload = function(){
         let orderdetails = {
             name,email,order
         }
-
         //Print on the screen
         document.getElementById('messages').innerHTML = printOrder(orderdetails);
     });
