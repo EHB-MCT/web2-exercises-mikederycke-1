@@ -56,7 +56,11 @@ window.onload = function(){
                 // Two ways of retrieving the correct pokemon data
                 // 1. Make a new fetch call
                 // 2. search for the pokemon in the array
-
+                let p = pokemon.find(ele => ele.id == id);
+                
+                //Add the pokemon to the team
+                let message = team1.addPokemon(p);
+                refreshTeam(message);
 
 
             });
@@ -71,9 +75,31 @@ window.onload = function(){
 
 }
 
-function refreshTeam(){
+function refreshTeam(m){
     //Add the team description to the page
     document.getElementById('team').innerHTML = team1.describe();
+
+    if(m){
+        //Create the message div
+        let alertbox = document.createElement('div');
+        alertbox.classList.add('alert');
+        alertbox.setAttribute('role', 'alert'); 
+
+        // Add styling based on sort of error
+        if(m.type == 'SUCCES'){
+            alertbox.classList.add('alert-success');
+        }else{
+            alertbox.classList.add('alert-danger');
+        }
+
+        //Add the message text
+        alertbox.innerText = m.value;
+
+        //Add to DOM
+        document.getElementById('messages').innerHTML = '';
+        document.getElementById('messages').appendChild(alertbox);
+
+    }
 }
 
 
