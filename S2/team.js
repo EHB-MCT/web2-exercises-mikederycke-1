@@ -6,9 +6,6 @@ export default class Team {
     }
 
     describe(){
-        // return `Team ${this.teamName} with trainer ${this.trainer}
-        // has the following pokemon: ${[...this.roster]}`;
-
         //Rework with objects
         let names = [];
         this.roster.forEach(ele => names.push(ele.name));
