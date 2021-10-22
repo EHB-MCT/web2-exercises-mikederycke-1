@@ -1,0 +1,19 @@
+{
+  "name": "sexyinputs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Mike",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "chart.js": "^3.3.2"
+  }
+}

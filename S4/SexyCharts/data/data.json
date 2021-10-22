@@ -1,0 +1,30 @@
+{
+    "student": "Mike Derycke",
+    "courses": [
+        {
+            "name": "Web advanced",
+            "hype": 10
+        },
+        {
+            "name": "Frontend",
+            "hype": 8
+        },
+        {
+            "name": "Backend",
+            "hype": 3
+        },
+        {
+            "name": "Integration Project",
+            "hype": 1
+        },
+        {
+            "name": "Web 3",
+            "hype": 10
+        },
+        {
+            "name": "Digitale geletterdheid",
+            "hype": 9
+        }
+
+    ]
+}
