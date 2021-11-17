@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script type="module" src="script.js"></script>
+</head>
+<body class="container">
+    <h1>Time wasted application</h1>
+    <form id="searchform" autocomplete="off">    
+        <input type="text" class="form-control" id="inputTitle" placeholder="Avengers, Parasite,...">
+        <!-- <button type="submit" class="btn btn-primary mb-2">Search</button> -->
+    </form>
+    <br>
+    <p id="error"></p>
+    <div class="list-group" id="resultlist" hidden>
+      <a id="result1" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result2" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result3" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result4" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result5" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result6" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result7" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result8" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result9" href="#" class="list-group-item list-group-item-action"></a>
+      <a id="result10" href="#" class="list-group-item list-group-item-action"></a>
+    </div>
+    <hr>
+
+    <h2>Time Wasted on movies in minutes: </h2><h2 id="counter">0</h2>
+    <hr>
+    <div id="moviecard" class="card mb-3" style="max-width: 540px;" hidden>
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img id="poster" src="" class="card-img" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 id="cardtitle" class="card-title">Card title</h5>
+              <p id="carddesc" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p id="carddirector" class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <p id="cardruntime" class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <button id="addMovie" type="button" class="btn btn-success">+</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
