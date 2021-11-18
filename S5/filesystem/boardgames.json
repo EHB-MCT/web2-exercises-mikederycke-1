@@ -1,0 +1,34 @@
+{
+  "120677": {
+    "name": "Terra Mystica",
+    "genre": "strategy",
+    "mechanisms": [
+      "Area Control",
+      "Network Building",
+      "Variable player powers"
+    ],
+    "description": "In the land of Terra Mystica dwell 14 different peoples in seven landscapes, and each group is bound to its own home environment, so to develop and grow, they must terraform neighboring landscapes into their home environments in competition with the other groups.\n\nTerra Mystica is a full information game without any luck that rewards strategic planning. Each player governs one of the 14 groups. With subtlety and craft, the player must attempt to rule as great an area as possible and to develop that group's skills. There are also four religious cults in which you can progress. To do all that, each group has special skills and abilities."
+  },
+  "175914": {
+    "name": "Food Chain Magnate",
+    "genre": "strategy",
+    "mechanisms": [
+      "Card Drafting",
+      "Modular Board",
+      "Deck Building"
+    ],
+    "description": "Food Chain Magnate is a heavy strategy game about building a fast food chain. The focus is on building your company using a card-driven (human) resource management system. Players compete on a variable city map through purchasing, marketing and sales, and on a job market for key staff members. The game can be played by 2-5 serious gamers in 2-4 hours"
+  },
+  "174430": {
+    "name": "Gloomhaven",
+    "genre": "thematic",
+    "mechanisms": [
+      "Cooperative play",
+      "Capmpaign driven",
+      "Hand Management",
+      "Storytelling",
+      "Role Playing"
+    ],
+    "description": "Gloomhaven is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make."
+  }
+}
