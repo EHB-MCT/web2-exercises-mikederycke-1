@@ -1,4 +1,8 @@
+//CommonJS require
 const { MongoClient } = require("mongodb");
+// ESM import style
+// import * as MongoClient from 'mongodb';
+
 // create a config.json file with your personal connection url.
 // This way your private credentials are hidden. Do not commit your config to your git repo. 
 // You can adjust mine with dummy data and create a copy
@@ -9,9 +13,7 @@ const boardgame = require("./tapestry.json");
 const client = new MongoClient(config.finalUrl);
 
 async function run() {
-
     try {
-
         // Create the connection
         await client.connect();
         console.log("Connected correctly to server");
